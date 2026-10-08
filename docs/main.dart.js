@@ -58870,7 +58870,7 @@ A.K9.prototype={}
 A.Kl.prototype={}
 A.rf.prototype={
 ao(){var s=t.s
-return new A.vO(A.d(["\ud83d\udc15","\ud83d\udc29","\ud83d\udc15\u200d\ud83e\uddba","\ud83e\uddae"],s),A.d(["images/\u5927\u5409.jpg","images/\u4e2d\u5409.jpg","images/\u5409.jpg","images/\u5c0f\u5409.jpg","images/\u51f6.jpg"],s))}}
+return new A.vO(A.d(["\ud83d\udc15","\ud83d\udc29","\ud83d\udc15\u200d\ud83e\uddba","\ud83e\uddae"],s),A.d(["images/daikichi.jpg","images/cyukichi.jpg","images/kichi.jpg","images/syokichi.jpg","images/kyo.jpg"],s))}}
 A.vO.prototype={
 og(){var s=0,r=A.O(t.H),q=this,p,o
 var $async$og=A.P(function(a,b){if(a===1)return A.L(b,r)
