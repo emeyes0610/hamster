@@ -15,11 +15,11 @@ class _HamsterGachaState extends State<HamsterGacha> {
   bool loading = false;
   final emojis = ['🐕', '🐩', '🐕‍🦺','🦮'];
   final images = [
-    'images/大吉.jpg',
-    'images/中吉.jpg',
-    'images/吉.jpg',
-    'images/小吉.jpg',
-    'images/凶.jpg'
+    'images/daikichi.jpg',
+    'images/cyukichi.jpg',
+    'images/kichi.jpg',
+    'images/syokichi.jpg',
+    'images/kyo.jpg'
   ];
   Future<void> gacha() async {
     setState(() => loading = true);
@@ -52,7 +52,7 @@ class _HamsterGachaState extends State<HamsterGacha> {
                       style: const TextStyle(fontSize: 100),
                     ),
                   )
-                : Image.network(images[n], fit: BoxFit.cover),
+                : Image.asset(images[n], fit: BoxFit.cover),
           ),
           const SizedBox(height: 30),
           const Text('⛩️', style: TextStyle(fontSize: 72)),
